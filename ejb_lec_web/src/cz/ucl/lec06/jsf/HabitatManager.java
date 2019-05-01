@@ -33,7 +33,7 @@ public class HabitatManager implements Serializable{
 		} catch (Exception e){
 			selectedHabitat = null;
 			FacesContext.getCurrentInstance().addMessage(null,
-					new FacesMessage("Unauthorized acess!", e.getMessage()));		
+					new FacesMessage("Unauthorized access!", e.getMessage()));
 		}	
 	}
 
